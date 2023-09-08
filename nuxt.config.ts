@@ -6,4 +6,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   // 应用模块
   modules: ["@vant/nuxt"],
+  app: {
+    head: {
+      meta: [{ name: "referrer", content: "no-referrer" }],
+    },
+  },
 });
