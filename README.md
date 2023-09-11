@@ -1,10 +1,10 @@
 # 项目初始化
 
 ```
-npx nuxi@latest init my-app
+npx nuxi@latest init my-bilibili
 ```
 
-# 防盗链解决
+# b站图片防盗链解决
 
 ```
 export default defineNuxtConfig({
@@ -37,13 +37,15 @@ https://help.aliyun.com/zh/ecs/use-cases/deploy-a-node-js-environment-on-an-alib
 
 ### 安装pm，启动项目
 
+[Linux部署nuxt3_木头没有瓜的博客-CSDN博客](https://blog.csdn.net/weixin_40918145/article/details/128972255)
+
 https://www.iwecore.cn/article/14
 
 ### 二级域名
 
-https://developer.aliyun.com/article/918604
+[Nginx/阿里云/二级域名的配置和使用](https://developer.aliyun.com/article/918604)
 
-https://developer.aliyun.com/article/707479
+[阿里云nginx服务器如何配置ssl证书,让你的网站添加https](https://developer.aliyun.com/article/707479)
 
 ### nginx配置
 
