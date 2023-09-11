@@ -8,7 +8,7 @@ useSeoMeta({
 });
 </script>
 <template>
-  <NuxtPage />
+  <NuxtPage :keepalive="{ max: 10 }" />
 </template>
 <style lang="scss">
 // 基础样式
